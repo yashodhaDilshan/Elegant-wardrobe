@@ -1,0 +1,427 @@
+*{margin:0; padding:0;}
+a{text-decoration: none;}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+.Main-div{ /*wrap div*/
+	position: relative;	
+	width: 100%;
+	height: auto;
+	text-align: center;
+}  /*wrap-div*/
+
+
+
+ /*------------------ heding start ---------------------*/
+
+.heding{
+	width: 100%;
+	height: 80px;
+	position:fixed;
+	background-color: #EDEDED;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+	z-index: 1000;	
+}
+
+.heding .site-name{	
+	float: left;
+	position: absolute;
+	/*background-color: antiquewhite;*/
+	top: 0px;
+	left: 0px;
+	width: 35%;
+	display: flex;
+	height: 100%;		
+}
+label.name{
+  color: #1ABCDD;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+.cirt{
+	margin-top: 28px;
+	margin-left: -50px
+}
+
+.search{
+	display: inline-block;
+	width: 30%;
+	height: 100%;	
+	/*background-color: crimson ;*/
+}
+.s-box{
+	display: flex;
+	width: 90%;
+	/*background-color: antiquewhite;*/
+	margin-left: 30px;
+}
+.box-s1{
+	display: flex;
+	margin-top: 18px;
+	border: 0;
+	border-radius: 100px;
+	width: 400px;
+	height: 45px;
+	background-color: #ffffff;	
+	font-size: 30px;
+	margin-left: 40px;
+}
+input.search-box{
+	width: 320px; 
+	height: 30px;
+	border: none;
+    background-color: #ffffff;
+	margin: 7px;
+	margin-left: 25px;	
+	outline: none;
+}
+input.search-btn {
+	width: 30px;
+	height: 30px;
+	margin-top: 8px;
+	position: relative;
+	background: url("../image/png/690150.png");
+	background-size: cover;
+	border: 0;	
+	transition: 0.3s;
+	
+}
+input.search-btn:hover{
+	transform: scale(1.1); 
+	z-index: 2;
+}
+
+.heding .list{
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;	
+	height: 100%;
+	width: 35%;	
+	/*background-color: antiquewhite;	*/
+	opacity: 70%;
+}
+.heding .list{
+	font-size: 20px;	
+}
+.heding .list ul{
+	list-style: none;
+	margin-top: 20px;	
+	color: #eb4d4b;	
+}
+.heding .list ul li{
+	display: inline-block;
+	padding: 0 5px;
+	transition: 0.3s;
+}
+.heding .list ul li a{
+	color: #464345;
+	transition: 0.3s;
+	font-size: 20px;
+	
+}
+.heding .list ul li a:hover{
+	color: #eb4d4b;	
+}
+.logimg{
+	margin-top: 5px;
+}
+
+.heding-space{
+	width: 100%;
+	height: 80px;
+	z-index: 999;
+	opacity: 20%;
+}
+
+/*------------------ heding End ----------------------*/
+
+
+
+
+
+
+
+
+
+.main-box{ /*(nav and product list wrap-div)*/
+	width: 100%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+/*------------------ Navigation side Start ---------------------*/
+
+.nav{                      
+	float: left;
+	width: 17%;
+	height: 857px;
+	background-color: #EDEDED;
+	position: fixed;
+	margin-top: 70px;
+} /************/
+
+
+.menu{
+	width: 90%;
+	height: 7%;;
+	background-color: #BFBFBF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+.tital-txt h1{
+	color: white;
+}
+.menu h1{font-size: 50px;}
+
+.women{
+	width: 90%;
+	height: 40%;
+	/*background-color: aqua;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.women-menu{
+	width: 100%;
+	height: 50px;
+	background-color: #BFBFBF;	
+	color: white;
+}
+.women-menu a{	
+	color: white;
+	font-size: 20px	
+}
+.women-item{
+	width: 100%;	
+}
+.women-item ul li{
+	width: 100%;
+	height: 30px;	
+	margin-top: 10px;
+	list-style: none;
+	transition: 0.5s;
+} 
+.women-item ul li:hover{
+	background-color: #D8D8D8;	
+}
+.women-item ul li a{
+	font-size: 25px;
+	color: #666;
+	transition: 0.5s;	
+}
+
+.men{
+	width: 90%;
+	height: 50px;
+	background-color: #BFBFBF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	
+}
+.men a{	
+	color: white;
+	font-size: 20px
+	
+}
+
+.kid{
+	width: 90%;
+	height: 50px;
+	background-color: #BFBFBF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+
+}
+.kid a{	
+	color: white;
+	font-size: 20px
+	
+}
+
+/*------------------ Navigation side End ---------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------ Prodyct Start ---------------------*/
+
+.product-list{
+	float: right;
+	width: 83%;
+	height: auto;
+	/*background-color: blueviolet;*/
+	margin-left: 325px
+} /************/
+
+.title-div{
+	width: 100%;
+	/*background-color: chocolate;	*/
+	padding-top: 80px;
+}
+
+.Titals{
+
+	width: 100%;
+	height: 60px;
+	background-color: #BFBFBF;
+	margin-top: 50px;	
+	
+}
+.Titals h1{
+	font-size: 50px;
+	color: white;
+}
+
+.product{
+	width: 85%;
+	height: auto;
+	/*background-color: darkgray;*/
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.item{
+	/*background-color: aqua ;*/	
+	width: 295px;
+	height: 520px;   
+  /*  border: 3px solid black;*/	
+}
+.container{	
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;	
+	grid-row-gap: 50px;
+	grid-column-gap: 80px;
+}
+
+.item-img{
+	width: 295px;
+	height: 418px;
+	/*background-color: aqua;*/
+}
+.item-img img{
+	width: 295px;
+	height: 418px;	
+}
+
+.item-conten{
+	width: 100%;
+	height: 20%;	
+	margin: 0;	
+}
+.conten{
+	float: left;	
+	width: 55%;	
+}
+.conten ul{
+	font-size: 20px;
+	float: left;
+	list-style: none;
+	margin-top: 5px;
+}
+.conten ul li{	
+	margin-top: 5px;
+	float: left;
+	
+}
+.conten ul li p{	
+	font-size: 15px;
+	margin-top: 2px;
+}
+.conten ul li spm{
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.add-btn{
+	float: right;
+	width: 90px;
+	height: 27px;
+	margin-top: 65px;
+	border: 0;
+	background-color: #eb4d4b;
+	color: white;	
+	border-radius: 3px;
+	transition: 0.2s;
+}
+.add-btn:hover{
+	transform: scale(1.1);
+	z-index: 1;
+}
+
+/*------------------ Prodyct End ----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot-space{
+	width: 100%;
+	height: 500px;
+	
+}
+
+.foot-space img{
+	width: 295px;
+	height: 418px;	
+}
+
+
+
+
+
+
+

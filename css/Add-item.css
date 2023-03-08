@@ -1,0 +1,84 @@
+*{margin: 0; padding: 0;}
+
+
+body{
+	width: 100%;
+	height: auto;
+}
+.main-box{
+	width: 20%;
+	height: 700px;
+	/*background-color: antiquewhite;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	border: 1px solid black;
+    border-radius: 10px;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.tital{
+	width: 100%;
+	height: 10%;
+	/*background-color: darkgray;*/
+	margin-top: 30px;
+	
+}
+
+
+
+.input-box{
+	width: 80%;
+	height: 80%;
+	/*background-color: chartreuse;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.input-box input{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	font-size: 17px;
+	
+}
+
+.input-box select{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+    font-size: 17px;
+	/*background-color: aqua;*/
+	
+}
+
+
+
+
+.input-box .submitbtn{    /*___________Submit button____________*/
+	width: 100%;
+	height: 40px;	
+	border: 0;	
+		
+}
+
+.input-box .submitbtn:hover{
+	background-color: #eb4d4b;
+	color: white;
+	transition: .5s;
+}
+
+.input-box .resetbtn{     /*___________Reset button____________*/
+	width: 50px;
+	height: 20px;	
+	border: 0;	
+	background-color: white;
+	transition: 0.5s;
+}
+
+
+
+.input-box .resetbtn:hover{
+	transform: scale(1.1);
+	z-index: 1;
+}
